@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Thanks for your order</title>
+	</head>
+	<body>
+		<h1 align="center">THANKYOU</h1>
+            <hr color="blue">
+            <p>Thankyou for ordering from Casa's Pizza.</p>
+            <p>We have received the following information about your order.</p>
+            <br>
+
+            <h4 style="color:red">Your Information:</h4>
+            <b>Name:</b> Sherlock Holmes<br>
+            <b>Address:</b> 221B Baker Street<br>
+            <b>Telephone Number:</b> 02122177<br>
+            <b>Email Address:</b> sherlockey@gmail.com<br>
+
+            <h4 style="color:red">Delivery Instruction:</h4>A cutie man with injured leg will take the pizza.<br>
+            <h4 style="color:red">Your Pizza:</h4>
+            <p>Crust: Cheese-Stuffed Crust</p>
+            <p>Toppings: Red Sauce, Mozzarella Cheese, Mushroom</p>
+            <p>Number: 1</p>
+
+            <hr color="red">
+
+	</body>
+</html>
