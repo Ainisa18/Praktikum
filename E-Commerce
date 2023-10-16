@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+    <meta charset= "UTF-8">
+    <meta name="viewport" content="width-device-width,initial-scale-1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <title>New Arrival!</title>
+    </head>
+    <body>
+        <style>
+
+::placeholder {
+  color: grey;
+  opacity: 1; /* Firefox */
+}
+
+
+
+            img {
+  float: right;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+}
+
+  input[type=submit] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=reset] {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+        </style>
+        <fieldset align="center">
+            <a href="#">home |</a>
+            <a href="#">generate link |</a>
+            <a href="#">transaction history |</a>
+            <a href="#">policy |</a>
+            <a href="#">about |</a>
+        </fieldset>
+        <br>
+        <br>
+        <br>
+
+<h2><img src="https://i.ebayimg.com/images/g/GywAAOSw8gxkBPEh/s-l1200.webp" width="260" height="260">
+Oyasumi Goodnight Pun T-Shirt Aiko Tanaka</h2>
+<h4>The newest design with 100% cotton and high quality sablon, grab yours right now!</h4>
+
+<fieldset>
+    <form action= "file:///C:/Users/TANTI/Documents/Response.html" method= "get">
+<h4>Details:</h4>Color: Black<br>Material: Cotton</p>
+<br>
+<br>
+</fieldset>
+    </style>
+          <br>
+          <br>
+           <label for="bank">Bank Account:</label>
+            <select id="bank">
+             <option value="BCA">BCA</option>
+             <option value="BNi">BNI</option>
+             <option value="BM">Bank Mandiri</option>
+             <option value="BSI">BSI</option>
+             <option value="CIMB">CIMB Niaga</option>
+             </select>
+          <br>
+          <label for="acc">Account Number:</label>
+          <input type="number" id="acc" type="text" placeholder="018221005">
+          
+          <br>
+          <label for="holder">Account Holder:</label>
+          <input type="text" id="holder" type="text" placeholder="Ainisa Iskandar">
+          <br>
+          <label for="ad">Your Address:</label>
+          <input type="text" id="ad" type="text" placeholder="Salemba Street No.47">
+          <br>
+          
+
+          <label for="tr">Transaction:</label>
+
+            <select id="tr">
+             <option value="1">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5</option>
+             </select>
+          <p>*if the transaction is for 3 person choose 3 from the drop-down list
+          <br>
+          <br>
+          <input type="checkbox" id="cek" name="phone">
+          <label for="cek" style="color:green;">Send to Mobile Phone</label>
+          <br>
+          
+          <input type="checkbox" id="cek" name="email">
+          <label for="cek" style="color:green;">Send to Email</label>
+          <br>
+          <br>
+
+          <label for="ph">Mobile Phone:</label>
+          <input type="text" id="ph" type="text" placeholder="085880304228">
+          <br>
+          <label for="em">Email Address:</label>
+          <input type="text" id="em" type="text" placeholder="ainsdndaa@gmail.com">
+          <br>
+          <br>
+          <h4>Are you sure to buy?</h4>
+
+          <input type="submit" value="Generate Order Link">
+          <input type="reset" value="Reset">
+    </body>
+</html>
