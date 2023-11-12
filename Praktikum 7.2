@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <style>
+        body{
+            background-color:pink;
+        }
+        
+        h2{
+            text-align:center;
+            color:black;
+        }
+        
+        label{
+            font-weight:bold;
+            display:block;
+        }
+        
+        .form-group{
+          margin-bottom:10px;  
+        }
+        
+        .form-container{
+            background-color:lightblue;
+            border:2px solid grey;
+            border-radius:10px;
+            box-shadow:0 0 5px black;
+            padding:25px;
+            width:400px;
+            height:510px;
+            margin:100px auto;
+        }
+
+        .button-save input{
+            background-color: lightgreen;
+            color: black;
+            width: 60px;
+            margin-top: 1em;
+            margin-right: 10px;
+            float: right;
+        }
+        .button-cancel input{
+            background-color: lightyellow;
+            color: black;
+            width: 60px;
+            margin-top: 1em;
+            float: right;
+        }
+        
+    </style>
+    <body>
+        <div class="form-container">
+         <h2>FORM ENTRY DATA PEGAWAI</h2>
+         <form method="post" action="">
+           
+           <div class="form-group">
+             <label for="nik">NIK</label>
+             <input type= "text" id="nik">
+           </div>
+           
+           <div class="form-group">
+             <label for="nama">NAMA</label>
+             <input type= "text" id="nama">
+           </div>
+           
+           <div class="form-group">
+             <label for="tlh">TEMPAT LAHIR</label>
+             <input type= "text" id="tlh">
+           </div>
+
+           <div class="form-group">
+             <label for="tnl">TANGGAL LAHIR</label>
+             <input type= "text" id="tnl">
+           </div>
+
+           <div class="form-group">
+             <label for="alm">ALAMAT</label>
+             <input type= "text" id="alm">
+           </div>
+
+           <div class="form-group">
+             <label for="tlp">NO TELEPON</label>
+             <input type= "text" id="tlp">
+           </div>
+
+           <div class="form-group"></div>
+            <label for="Jabatan">JABATAN</label>
+            <select name="Jabatan" id="Jabatan">
+                <option value="1">Jabatan Terbaru</option>
+            </select>
+
+            <div class="form-group"></div>
+            <label for="Status">STATUS</label>
+            <select name="Status" id="Status">
+                <option value="1">Status Terbaru</option>
+            </select>
+
+            <div class="button">
+            <div class="button-save">
+            <input type="submit" value="Save">
+            </div>
+
+            <div class="button-cancel">
+                <input type="submit" value="Cancel">
+                </div>
+            </div>
+           
+         </form>
+    </body>
+</html>
