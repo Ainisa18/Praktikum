@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .form-group{
+        background-color:lightblue;
+        display:block;
+        font-weight:bold;
+    }
+</style>
+<body>
+    <fieldset>
+    <form method="POST" action="">
+        <legend style="background-color:lightpink;">
+            <label style="font-size:25px; font-weight:bold; padding-right:25px;">Cari Sivitas Akademika</label><label for="cari"></label><input type="text" id="cari" placeholder="Search">
+        </legend>
+
+        <div class="form-group">
+            <label for="nama" style="margin-right:79px;">Nama:</label>
+                    <input type="text" id="nama" type="text" placeholder="Nama Mahasiwa/Dosen"><br>
+
+            <label for="prodi" style="margin-right:47px;">Asal Prodi:</label>
+                    <input type="text" id="prodi" type="text" placeholder="Asal Prodi"><br>
+
+            <label for="Status" style="margin-right:77px;">Status:</label>
+                    <input type="text" id="status" type="text" placeholder="Mahasiwa/Dosen"><br>
+
+            <label>Jenis Kendaraan:</label>
+            <label for="mr">Motor</label>
+                   <input type="radio" id="mr" name="pilih">
+           <label for="mb">Mobil</label>
+                   <input type="radio" id="mb" name="pilih"><br><br>
+
+           <label for="nopol" style="margin-right:76px;">NoPol:</label>
+           <input type="text" id="np" type="text"><br>
+    
+           <label for="merk" style="margin-right:79px;">Merk:</label>
+           <input type="text" id="np" type="text"><br>
+        
+           <label for="stnk" style="margin-right:20px;">Upload STNK:</label>
+           <input type="text" id="up" type="text">
+     
+           <input type="submit" value="Browse" style="background-color:lightyellow;""><br><br>
+           <input type="submit" value="Daftar" style="background-color:lightgreen;">
+            </div>
+    </form>
+   </fieldset>
+</body>
+</html>
