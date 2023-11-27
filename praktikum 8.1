@@ -1,0 +1,62 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum8-1</title>
+</head>
+<style>
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1{
+    display: flex;
+}
+.container3{
+    display: flex;
+}
+header, footer{
+    background-color: #f7caca;
+    height: 20vh;
+    width: 80vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+nav{
+    background-color: #92a8d1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+    width: 20vw;
+
+}
+article{
+    background-color: #FCF5ED;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-grow: 1;
+    height: 60vh;
+}
+
+aside{
+    background-color: #FFF2D8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 20vw; 
+}
+</style>
+<body>
+   <div class="container1">
+    <nav>Nav</nav>
+    <div class="container2">
+        <header>Header</header>
+        <div class="container3">
+            <article>Article</article>
+            <aside>Aside</aside>
+        </div>
+        <footer>Footer</footer>
+    </div>
+   </div>
+</body>
+</html>
