@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <title>Praktikum Select Gambar</title>
+        <script>
+            function image_picker(){
+                const list_gambar = ["cat.jpeg", "turtle.jpeg", "capybara.jpeg", "bunny.jpeg"];
+                let pilihan = document.getElementById("option").value;
+
+                if(pilihan == "cat"){
+                    let select = list_gambar[0];
+                    document.getElementById("gambar").src = `img/${select}`
+                }
+
+                if(pilihan == "turtle"){
+                    let select = list_gambar[1];
+                    document.getElementById("gambar").src = `img/${select}`
+                    
+                }
+
+                if(pilihan == "capybara"){
+                    let select = list_gambar[2];
+                    document.getElementById("gambar").src = `img/${select}`
+                }
+
+                if(pilihan == "bunny"){
+                    let select = list_gambar[3];
+                    document.getElementById("gambar").src = `img/${select}`
+                }
+
+
+                
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Image Picker</h1>
+
+        <select name="" id="option" onchange="image_picker()">
+            <option value="">Pilih Gambar</option>
+            <option value="cat">Cat</option>
+            <option value="turtle">Turtle</option>
+            <option value="capybara">Capybara</option>
+            <option value="bunny">Bunny</option>
+        </select>
+        <br><br>
+
+        <div class="container">
+            <img id="gambar" width="400px">
+        </div>
+
+        <form>
+
+        </form>
+
+    </body>
+</html>
