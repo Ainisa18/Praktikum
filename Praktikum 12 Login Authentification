@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+</head>
+<body>
+
+  <h2>Login Form</h2>
+
+  <form id="orm">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br>
+    <input type="button" value="Login" onclick="checkLogin()">
+  </form>
+
+  <script>
+    function checkLogin() {
+      var usernameInput = document.getElementById('username').value;
+      var passwordInput = document.getElementById('password').value;
+
+      var expectedUsername = 'ainisati05';
+      var expectedPassword = 'sttnf2023';
+
+      if (usernameInput === expectedUsername && passwordInput === expectedPassword) {
+        alert('Login Sukses');
+        window.location.href = 'newpage.html';
+      } else {
+        alert('Login Gagal. Periksa kembali username dan password Anda.');
+      }
+    }
+  </script>
+
+</body>
+</html>
